@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size:1rem;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.todo-container{
+    width: 40%;
+    margin-top: 20%;
+    
+}
+.todo-input{
+    width: 400px;
+}
+.condition{
+    width: 30%;
+    position: absolute;
+    height: 60vh;
+    left: 30%;
+    top: 20%;
+} 
+  .hidden-2{
+    opacity: 0.3;
+  }
+.hidden{
+display: none;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-top: 10px;
+    text-transform: capitalize;
+    color: blue;
+}
+li button{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 10%;
+}
